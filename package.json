@@ -1,0 +1,40 @@
+{
+  "name": "greek-stemmer",
+  "version": "0.1.0",
+  "description": "A greek stemmer based on the work done by the skroutz team",
+  "homepage": "",
+  "author": {
+    "name": "apmats",
+    "email": "amatsagkas@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib",
+    "config"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "greek",
+    "stemmer"
+  ],
+  "repository": "/greek-stemmer",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "path": "^0.12.7",
+    "yamljs": "^0.2.4"
+  }
+}
