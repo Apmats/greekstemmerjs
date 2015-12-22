@@ -1,19 +1,27 @@
 # greek-stemmer [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> A greek stemmer based on the work done by the skroutz team
+> A port of the skroutz greek stemmer, from ruby (which is available over here https://github.com/skroutz/greek_stemmer) to JS.
 
 ## Installation
 
 ```sh
 $ npm install --save greek-stemmer
 ```
-
 ## Usage
 
 ```js
 var greekStemmer = require('greek-stemmer');
-
-greekStemmer('Rainbow');
+greekStemmer.stem('ΕΠΙΦΑΝΙΕΣ');
 ```
+
+## Contributing
+
+Run the following gulp task to go through a file of words (under the benchmarks folder) and get a test output:
+
+```sh
+$ gulp benchmark
+```
+That should give you an idea of the output of the stemmer to see if it fits your needs or if it needs further tuning.
+
 ## License
 
 MIT © [apmats]()

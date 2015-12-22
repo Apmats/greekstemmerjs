@@ -2,7 +2,7 @@
   "name": "greek-stemmer",
   "version": "0.1.0",
   "description": "A greek stemmer based on the work done by the skroutz team",
-  "homepage": "",
+  "homepage": "https://github.com/Apmats/greekstemmerjs",
   "author": {
     "name": "apmats",
     "email": "amatsagkas@gmail.com",
@@ -17,7 +17,7 @@
     "greek",
     "stemmer"
   ],
-  "repository": "/greek-stemmer",
+  "repository": "https://github.com/Apmats/greekstemmerjs",
   "devDependencies": {
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
@@ -29,7 +29,8 @@
   },
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "gulp test",
+    "benchmark": "gulp benchmark"
   },
   "license": "MIT",
   "dependencies": {
