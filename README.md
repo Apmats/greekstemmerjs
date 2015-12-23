@@ -29,7 +29,7 @@ MIT © [apmats]()
 
 [npm-image]: https://badge.fury.io/js/greek-stemmer.svg
 [npm-url]: https://npmjs.org/package/greek-stemmer
-[travis-image]: https://travis-ci.org/apmats/greekstemmerjs.svg?branch=master
-[travis-url]: https://travis-ci.org/apmats/greekstemmerjs
+[travis-image]: https://travis-ci.org/Apmats/greekstemmerjs.svg?branch=master
+[travis-url]: https://travis-ci.org/Apmats/greekstemmerjs
 [daviddm-image]: https://david-dm.org/apmats/greekstemmerjs.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/apmats/greekstemmerjs
