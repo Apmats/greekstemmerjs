@@ -1,6 +1,6 @@
 {
   "name": "greek-stemmer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A greek stemmer based on the work done by the skroutz team",
   "homepage": "https://github.com/Apmats/greekstemmerjs",
   "author": {
