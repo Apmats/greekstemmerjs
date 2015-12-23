@@ -20,7 +20,7 @@ Run the following gulp task to go through a file of words (under the benchmarks 
 ```sh
 $ gulp benchmark
 ```
-That should give you an idea of the output of the stemmer to see if it fits your needs or if it needs further tuning.
+That should give you an idea of the output of the stemmer to see if it fits your needs or if it needs further tuning. Tuning can be done either by adding manual exceptions in the config files or by forking and doing it in the stemmer code.
 
 ## License
 
