@@ -1,7 +1,7 @@
 {
   "name": "greek-stemmer",
   "version": "0.1.2",
-  "description": "A greek stemmer based on the work done by the skroutz team",
+  "description": "A simple greek stemmer",
   "homepage": "https://github.com/Apmats/greekstemmerjs",
   "author": {
     "name": "apmats",
