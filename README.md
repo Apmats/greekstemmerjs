@@ -1,5 +1,5 @@
 # greek-stemmer [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> A port of the skroutz greek stemmer, from ruby (which is available over here https://github.com/skroutz/greek_stemmer) to JS.
+> A JS port of the greek stemmer made by the skroutz team in ruby (which is available over here https://github.com/skroutz/greek_stemmer).
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ npm install --save greek-stemmer
 
 ```js
 var greekStemmer = require('greek-stemmer');
-greekStemmer.stem('ΕΠΙΦΑΝΙΕΣ');
+greekStemmer.stem('ΕΠΙΦΑΝEΙΕΣ');
 ```
 
 ## Contributing
